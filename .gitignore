@@ -1,11 +1,28 @@
-# big/runtime stuff — never commit
-data/
-out/
-*.png
-*.log
-*.out
+node_modules
+
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+# Playwright
+test-results
+
+/data
 /result
-house.png
-node_modules/
-__pycache__/
-*.pyc
