@@ -1,0 +1,11 @@
+# big/runtime stuff — never commit
+data/
+out/
+*.png
+*.log
+*.out
+/result
+house.png
+node_modules/
+__pycache__/
+*.pyc

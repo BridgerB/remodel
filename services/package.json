@@ -1,0 +1,15 @@
+{
+	"name": "remodel",
+	"version": "1.0.0",
+	"type": "module",
+	"private": true,
+	"description": "Local house image tools: image->image (FLUX.2 klein-9b) and image->text (gemma3:27b).",
+	"scripts": {
+		"lint": "biome check .",
+		"fmt": "biome check --write ."
+	},
+	"devDependencies": {
+		"@types/node": "^24.0.0",
+		"typescript": "^5.7.0"
+	}
+}
